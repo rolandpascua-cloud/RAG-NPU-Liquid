@@ -1,0 +1,8 @@
+langchain>=0.1,<0.2
+langchain-openai
+faiss-cpu
+sentence-transformers
+openai
+huggingface-hub
+tiktoken
+pypdf
