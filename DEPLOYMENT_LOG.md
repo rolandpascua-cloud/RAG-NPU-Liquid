@@ -116,7 +116,8 @@ langchain_community.document_loaders
 
 **Impact:** None—code runs correctly; warnings are informational
 
-**Workaround:** Can migrate to `langchain_community.*` and LCEL in future (optional improvement)
+> [!TIP]
+> **Workaround:** Can migrate to `langchain_community.*` and LCEL in future (optional improvement)
 
 ### Chunk Size Trade-off
 **Issue:** 900-char chunks < 1500-char chunks means slightly more overhead on retrieval

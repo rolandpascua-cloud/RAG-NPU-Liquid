@@ -52,7 +52,7 @@ from langchain.chains import RetrievalQA
 llm = ChatOpenAI(
     model_name=FLM_MODEL,           # was: model
     openai_api_base=FLM_BASE_URL,   # stays consistent
-    openai_api_key="no-key",        # stays consistent
+    openai_api_key="[REDACTED]",        # stays consistent
     max_tokens=NUM_PREDICT,
     temperature=TEMPERATURE,
 )

@@ -156,7 +156,8 @@ While RAG-NPU-Liquid doesn't execute code from documents, malformed PDFs or larg
 - Slow ingestion
 - Embedding model timeout
 
-**Mitigation:**
+> [!TIP]
+> **Mitigation:**
 - Validate document format before ingestion
 - Set file size limits
 - Monitor ingestion process
